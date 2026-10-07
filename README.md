@@ -1,2 +1,2 @@
 # Nathenielabigail-Ct
-Hello guys, this is my first ever project. Be nice
+Hello guys, this is my first ever project. Be nice!
