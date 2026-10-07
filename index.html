@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Unbound Thinking Makes Magic</title>
+<style>
+:root{--bg:#f3f7fc;--ink:#14213d;--mute:#4a5878;--line:#c9d6ea;--card:#fff;--a:#0b7f70;--spark:#d6336c;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1626;--ink:#e8eefb;--mute:#9fb0d0;--line:#27375a;--card:#15213a;--a:#3ed1bd;--spark:#ff6b9a}}
+:root[data-theme="dark"]{--bg:#0e1626;--ink:#e8eefb;--mute:#9fb0d0;--line:#27375a;--card:#15213a;--a:#3ed1bd;--spark:#ff6b9a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:11pt/1.5 Arial,Helvetica,sans-serif}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:4px;overflow-x:auto;padding:8px 12px}
+nav button{flex:none;font:inherit;font-size:10pt;color:var(--mute);background:none;border:0;border-bottom:3px solid transparent;padding:6px 10px;cursor:pointer}
+nav button[aria-current="page"]{color:var(--ink);border-color:var(--spark);font-weight:bold}
+nav button:focus-visible{outline:2px solid var(--a);outline-offset:2px}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+.hero{background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:28px 28px;border:1px solid var(--line);border-radius:6px;padding:28px 18px;position:relative;background-color:var(--card)}
+.hero h1{font-size:26pt;line-height:1.15;margin:0 0 10px;max-width:11em}
+.hero p{margin:0;max-width:32em}
+.hero i{position:absolute;right:56px;bottom:56px;width:14px;height:14px;border-radius:50%;background:var(--spark);box-shadow:0 0 0 6px color-mix(in srgb,var(--spark) 25%,transparent)}
+h2{font-size:17pt;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 18px}
+.todo{background:var(--card);border:1px dashed var(--line);border-left:4px solid var(--a);border-radius:4px;padding:10px 14px;margin:0 0 12px}
+.todo b{display:block}
+.todo span{color:var(--mute)}
+dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:18px 0 0}
+dt{color:var(--mute)}dd{margin:0}
+.wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:480px;background:var(--card)}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{font-size:10pt}
+section{display:none}section.on{display:block}
+@media (prefers-reduced-motion:no-preference){section.on{animation:in .25s ease-out}@keyframes in{from{opacity:0}to{opacity:1}}}
+</style>
+</head>
+<body>
+<nav id="nav" aria-label="Pages"></nav>
+<main>
+
+<section id="home">
+<div class="hero"><h1>Unbound thinking makes magic</h1>
+<p>Computational Thinking in Mathematics: From Unplugged to Plugged-in Learning</p><i aria-hidden="true"></i></div>
+<dl>
+<dt>Level</dt><dd>Year 5 (KSSR) · Koordinat, Nisbah dan Kadaran · sub-topic to be confirmed</dd>
+<dt>Name</dt><dd>[Student name]</dd>
+<dt>Matric no.</dt><dd>[Matric number]</dd>
+<dt>Group</dt><dd>[Group / Unit]</dd>
+<dt>Course</dt><dd>MTES1142 Computational Thinking in Mathematics</dd>
+<dt>Lecturer</dt><dd>[Lecturer's name]</dd>
+</dl>
+</section>
+
+<section id="about">
+<h2>About Computational Thinking</h2><p class="sub">Explain what CT is.</p>
+<div class="todo"><b>What CT is</b><span>Content to be added.</span></div>
+<div class="todo"><b>The CT skills used in this product</b><span>Content to be added.</span></div>
+</section>
+
+<section id="topic">
+<h2>Mathematics Topic</h2><p class="sub">Explain the chosen maths topic.</p>
+<div class="todo"><b>Topic and learning standard</b><span>Content to be added.</span></div>
+<div class="todo"><b>Target learners and curriculum level</b><span>Content to be added.</span></div>
+<div class="todo"><b>The learning problem and why CT can help</b><span>Content to be added.</span></div>
+</section>
+
+<section id="unplugged">
+<h2>Unplugged Activity</h2><p class="sub">Minimal or no digital technology.</p>
+<div class="todo"><b>Mathematical objective</b><span>Content to be added.</span></div>
+<div class="todo"><b>CT elements</b><span>Content to be added.</span></div>
+<div class="todo"><b>Tools and materials involved</b><span>Content to be added.</span></div>
+<div class="todo"><b>Instructions and examples</b><span>Content to be added.</span></div>
+</section>
+
+<section id="plugged">
+<h2>Plugged-in Activity</h2><p class="sub">The digital tool must have a pedagogical purpose.</p>
+<div class="todo"><b>Digital tool and why it was chosen</b><span>Content to be added.</span></div>
+<div class="todo"><b>Mathematical objective and CT elements</b><span>Content to be added.</span></div>
+<div class="todo"><b>Instructions and examples</b><span>Content to be added.</span></div>
+</section>
+
+<section id="analysis">
+<h2>CT Analysis</h2><p class="sub">How the CT elements show up in each activity.</p>
+<div class="todo"><b>In the unplugged activity</b><span>Content to be added.</span></div>
+<div class="todo"><b>In the plugged-in activity</b><span>Content to be added.</span></div>
+</section>
+
+<section id="comparison">
+<h2>Comparison</h2><p class="sub">Unplugged and plugged-in, side by side.</p>
+<div class="wrap"><table>
+<tr><th>Dimension</th><th>Unplugged</th><th>Plugged-in</th></tr>
+<tr><td>Mathematical learning</td><td></td><td></td></tr>
+<tr><td>CT development</td><td></td><td></td></tr>
+<tr><td>Learner engagement</td><td></td><td></td></tr>
+<tr><td>Accessibility</td><td></td><td></td></tr>
+<tr><td>Collaboration</td><td></td><td></td></tr>
+<tr><td>Cognitive demand</td><td></td><td></td></tr>
+<tr><td>Advantages</td><td></td><td></td></tr>
+<tr><td>Limitations</td><td></td><td></td></tr>
+<tr><td>Technological requirements</td><td></td><td></td></tr>
+<tr><td>Suitability for different learners</td><td></td><td></td></tr>
+</table></div>
+</section>
+
+<section id="resources">
+<h2>Teacher Resources</h2><p class="sub">Materials a teacher can use.</p>
+<div class="todo"><b>Resources</b><span>Content to be added.</span></div>
+</section>
+
+<section id="reflection">
+<h2>Reflection</h2><p class="sub">What this product taught you.</p>
+<div class="todo"><b>Reflection</b><span>Content to be added.</span></div>
+</section>
+
+<section id="references">
+<h2>References</h2><p class="sub">APA format.</p>
+<div class="todo"><b>No sources added yet.</b></div>
+</section>
+
+</main>
+<script>
+var P=[["home","Home"],["about","About CT"],["topic","Maths Topic"],["unplugged","Unplugged"],["plugged","Plugged-in"],["analysis","CT Analysis"],["comparison","Comparison"],["resources","Teacher Resources"],["reflection","Reflection"],["references","References"]];
+var nav=document.getElementById("nav");
+P.forEach(function(p){var b=document.createElement("button");b.textContent=p[1];b.dataset.p=p[0];b.onclick=function(){location.hash=p[0]};nav.appendChild(b)});
+function show(){var id=location.hash.slice(1);if(!P.some(function(p){return p[0]===id}))id="home";
+document.querySelectorAll("section").forEach(function(s){s.classList.toggle("on",s.id===id)});
+nav.querySelectorAll("button").forEach(function(b){if(b.dataset.p===id){b.setAttribute("aria-current","page");b.scrollIntoView({inline:"center",block:"nearest"})}else b.removeAttribute("aria-current")});
+window.scrollTo(0,0)}
+window.addEventListener("hashchange",show);show();
+</script>
+</body>
+</html>
